@@ -37,6 +37,20 @@ if (QUESTION2.equalsIgnoreCase("Nothing")){
 	JOptionPane.showMessageDialog(null, "Piano");
 		// 2. Make a pop up to show the score.
 		JOptionPane.showMessageDialog(null, "scoreHolder");
-	}
+		String QUESTION3= JOptionPane.showInputDialog("I am one thing that is separate from the rest, never the same, what am I?");
+
+		if (QUESTION3.equalsIgnoreCase("An individual")){
+			JOptionPane.showMessageDialog(null, "Correct!!!");
+			scoreHolder = scoreHolder+1;
+		}
+			
+		if (QUESTION3.equalsIgnoreCase("Nothing")){
+			JOptionPane.showMessageDialog(null, "An individual");
+				// 2. Make a pop up to show the score.
+				JOptionPane.showMessageDialog(null, "scoreHolder");
+
+
+}
+}
 }
 }
